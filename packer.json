@@ -2,13 +2,13 @@
   "builders": [{
     "type": "azure-arm",
    
-    "client_id": "********************************",
-    "client_secret": "**********************************",
-    "tenant_id": "********************************************",
-    "subscription_id": "*******************************************",
+    "client_id": "*******************************",
+    "client_secret": "*********************************",
+    "tenant_id": "*********************************************",
+    "subscription_id": "************************************************",
 
-    "managed_image_resource_group_name": "windowspacker-rg",
-    "managed_image_name": "myPackerImage",
+    "managed_image_resource_group_name": "gowtham-windows-image-creation-rg",
+    "managed_image_name": "myPackerwindowsImage",
 
     "os_type": "Windows",
     "image_publisher": "MicrosoftWindowsServer",
@@ -26,7 +26,7 @@
         "task": "Image deployment"
     },
 
-    "build_resource_group_name": "windowspacker-rg",
+    "build_resource_group_name": "gowtham-windows-image-creation-rg",
     "vm_size": "Standard_E2s_v3"
   }],
   "provisioners": [{
